@@ -44,7 +44,7 @@ def generate_genes():
         else:
             turns.append("l")
 
-    return (positions, turns, 0)
+    return positions, turns, 0
 
 # Function to initialize population
 def generate_population(size):

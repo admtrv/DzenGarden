@@ -60,7 +60,6 @@ def main(need_print=True):
         next_population = elitism(evaluated_population)
 
         # Apply selection
-        selected_population = []
         if selection_type == "tournament_selection":
             selected_population = tournament_selection(evaluated_population, int(population_size * future_generation))
         elif selection_type == "rank_based_selection":
@@ -71,7 +70,6 @@ def main(need_print=True):
             selected_population = tournament_selection(evaluated_population, int(population_size * future_generation)) # Default
 
         # Apply crossover
-        crossed_population = []
         if crossover_type == "single_point_crossover":
             crossed_population = single_point_crossover(selected_population)
         elif crossover_type == "two_point_crossover":

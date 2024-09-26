@@ -3,13 +3,6 @@
 import random
 import config
 from algorithm import main as run
-from generation import generate_population
-from fitness import fitness_function
-from elitism import elitism
-from selection import tournament_selection, rank_based_selection
-from crossover import single_point_crossover
-from mutation import mutation
-from garden import print_garden
 
 # Log file properties
 LOG_FILE = 'log.txt'

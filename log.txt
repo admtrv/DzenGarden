@@ -1,0 +1,325 @@
+Testing config 1/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.0, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 1 success rate: 97.0%
+
+Testing config 2/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.0, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 2 success rate: 95.0%
+
+Testing config 3/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.0, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 3 success rate: 93.0%
+
+Testing config 4/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.1, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 4 success rate: 95.0%
+
+Testing config 5/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.1, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 5 success rate: 92.0%
+
+Testing config 6/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.1, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 6 success rate: 95.0%
+
+Testing config 7/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.2, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 7 success rate: 93.0%
+
+Testing config 8/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.2, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 8 success rate: 91.0%
+
+Testing config 9/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.2, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 9 success rate: 93.0%
+
+Testing config 10/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.0, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 10 success rate: 96.0%
+
+Testing config 11/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.0, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 11 success rate: 94.0%
+
+Testing config 12/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.0, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 12 success rate: 92.0%
+
+Testing config 13/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.1, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 13 success rate: 89.0%
+
+Testing config 14/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.1, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 14 success rate: 96.0%
+
+Testing config 15/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.1, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 15 success rate: 88.0%
+
+Testing config 16/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.2, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 16 success rate: 93.0%
+
+Testing config 17/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.2, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 17 success rate: 93.0%
+
+Testing config 18/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.2, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 18 success rate: 91.0%
+
+Testing config 19/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.0, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 19 success rate: 96.0%
+
+Testing config 20/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.0, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 20 success rate: 97.0%
+
+Testing config 21/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.0, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 21 success rate: 93.0%
+
+Testing config 22/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.1, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 22 success rate: 93.0%
+
+Testing config 23/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.1, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 23 success rate: 95.0%
+
+Testing config 24/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.1, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 24 success rate: 95.0%
+
+Testing config 25/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.2, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 25 success rate: 92.0%
+
+Testing config 26/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.2, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 26 success rate: 96.0%
+
+Testing config 27/108: config = {'population_size': 100, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.2, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 27 success rate: 91.0%
+
+Testing config 28/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.0, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 28 success rate: 94.0%
+
+Testing config 29/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.0, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 29 success rate: 90.0%
+
+Testing config 30/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.0, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 30 success rate: 90.0%
+
+Testing config 31/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.1, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 31 success rate: 94.0%
+
+Testing config 32/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.1, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 32 success rate: 89.0%
+
+Testing config 33/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.1, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 33 success rate: 94.0%
+
+Testing config 34/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.2, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 34 success rate: 96.0%
+
+Testing config 35/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.2, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 35 success rate: 89.0%
+
+Testing config 36/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.2, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 36 success rate: 92.0%
+
+Testing config 37/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.0, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 37 success rate: 91.0%
+
+Testing config 38/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.0, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 38 success rate: 95.0%
+
+Testing config 39/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.0, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 39 success rate: 90.0%
+
+Testing config 40/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.1, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 40 success rate: 96.0%
+
+Testing config 41/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.1, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 41 success rate: 96.0%
+
+Testing config 42/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.1, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 42 success rate: 90.0%
+
+Testing config 43/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.2, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 43 success rate: 94.0%
+
+Testing config 44/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.2, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 44 success rate: 91.0%
+
+Testing config 45/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.2, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 45 success rate: 90.0%
+
+Testing config 46/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.0, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 46 success rate: 92.0%
+
+Testing config 47/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.0, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 47 success rate: 93.0%
+
+Testing config 48/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.0, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 48 success rate: 94.0%
+
+Testing config 49/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.1, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 49 success rate: 94.0%
+
+Testing config 50/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.1, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 50 success rate: 94.0%
+
+Testing config 51/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.1, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 51 success rate: 89.0%
+
+Testing config 52/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.2, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 52 success rate: 91.0%
+
+Testing config 53/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.2, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 53 success rate: 93.0%
+
+Testing config 54/108: config = {'population_size': 100, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.2, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 54 success rate: 91.0%
+
+Testing config 55/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.0, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 55 success rate: 93.0%
+
+Testing config 56/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.0, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 56 success rate: 89.0%
+
+Testing config 57/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.0, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 57 success rate: 93.0%
+
+Testing config 58/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.1, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 58 success rate: 93.0%
+
+Testing config 59/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.1, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 59 success rate: 90.0%
+
+Testing config 60/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.1, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 60 success rate: 93.0%
+
+Testing config 61/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.2, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 61 success rate: 95.0%
+
+Testing config 62/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.2, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 62 success rate: 95.0%
+
+Testing config 63/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.0, 'elitism_rate': 0.2, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 63 success rate: 95.0%
+
+Testing config 64/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.0, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 64 success rate: 94.0%
+
+Testing config 65/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.0, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 65 success rate: 90.0%
+
+Testing config 66/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.0, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 66 success rate: 94.0%
+
+Testing config 67/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.1, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 67 success rate: 91.0%
+
+Testing config 68/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.1, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 68 success rate: 94.0%
+
+Testing config 69/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.1, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 69 success rate: 96.0%
+
+Testing config 70/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.2, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 70 success rate: 90.0%
+
+Testing config 71/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.2, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 71 success rate: 91.0%
+
+Testing config 72/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.01, 'elitism_rate': 0.2, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 72 success rate: 97.0%
+
+Testing config 73/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.0, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 73 success rate: 93.0%
+
+Testing config 74/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.0, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 74 success rate: 89.0%
+
+Testing config 75/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.0, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 75 success rate: 91.0%
+
+Testing config 76/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.1, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 76 success rate: 94.0%
+
+Testing config 77/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.1, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 77 success rate: 94.0%
+
+Testing config 78/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.1, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 78 success rate: 97.0%
+
+Testing config 79/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.2, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 79 success rate: 94.0%
+
+Testing config 80/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.2, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 80 success rate: 91.0%
+
+Testing config 81/108: config = {'population_size': 200, 'generations_size': 100, 'mutation_rate': 0.05, 'elitism_rate': 0.2, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 81 success rate: 91.0%
+
+Testing config 82/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.0, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 82 success rate: 94.0%
+
+Testing config 83/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.0, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 83 success rate: 92.0%
+
+Testing config 84/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.0, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 84 success rate: 90.0%
+
+Testing config 85/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.1, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 85 success rate: 94.0%
+
+Testing config 86/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.1, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 86 success rate: 94.0%
+
+Testing config 87/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.1, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 87 success rate: 92.0%
+
+Testing config 88/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.2, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 88 success rate: 92.0%
+
+Testing config 89/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.2, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 89 success rate: 98.0%
+
+Testing config 90/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.2, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 90 success rate: 92.0%
+
+Testing config 91/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.0, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 91 success rate: 93.0%
+
+Testing config 92/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.0, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 92 success rate: 90.0%
+
+Testing config 93/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.0, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 93 success rate: 91.0%
+
+Testing config 94/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.1, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 94 success rate: 97.0%
+
+Testing config 95/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.1, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 95 success rate: 93.0%
+
+Testing config 96/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.1, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 96 success rate: 95.0%
+
+Testing config 97/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.2, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 97 success rate: 93.0%
+
+Testing config 98/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.2, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 98 success rate: 91.0%
+
+Testing config 99/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.01, 'elitism_rate': 0.2, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 99 success rate: 92.0%
+
+Testing config 100/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.0, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 100 success rate: 93.0%
+
+Testing config 101/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.0, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 101 success rate: 92.0%
+
+Testing config 102/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.0, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 102 success rate: 96.0%
+
+Testing config 103/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.1, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 103 success rate: 91.0%
+
+Testing config 104/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.1, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 104 success rate: 95.0%
+
+Testing config 105/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.1, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 105 success rate: 91.0%
+
+Testing config 106/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.2, 'future_generation': 0.6, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 106 success rate: 94.0%
+
+Testing config 107/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.2, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 107 success rate: 92.0%
+
+Testing config 108/108: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.05, 'elitism_rate': 0.2, 'future_generation': 0.8, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'}
+Config 108 success rate: 93.0%
+
+Best result: config = {'population_size': 200, 'generations_size': 200, 'mutation_rate': 0.0, 'elitism_rate': 0.2, 'future_generation': 0.7, 'selection_type': 'tournament_selection', 'crossover_type': 'single_point_crossover'} success rate = 98.0%

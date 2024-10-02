@@ -1,8 +1,8 @@
 # config.py
 
 # Generation parameters
-population_size = 200
-generations_size = 200
+population_size = 100
+generations_size = 100
 mutation_rate = 0.01
 elitism_rate = 0.1
 future_generation = 0.6

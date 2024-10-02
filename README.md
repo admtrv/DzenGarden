@@ -397,13 +397,12 @@ def test_config(conf, runs=100):
 
     success_rate = (successful_runs / runs) * 100
     return success_rate
-
 ```
 
 **Outcome:**
 By using this automated testing approach, I was able to find the ideal configuration that significantly improved the algorithm's performance:
 
-``` json
+```
 Best result: 
 config = {
     'population_size': 200,
@@ -415,15 +414,100 @@ config = {
     'crossover_type': 'single_point_crossover'
 } 
 success rate = 98.0%
-
 ```
 
 This configuration achieved a `98.0%` success rate in obtaining the best possible fitness, which was a substantial improvement over manual parameter tuning.
 
 ## Analysis
 
-...
+For the purpose of analyzing parameters, I created a `'graph.py'` class that allows to test the effect of different parameters on fitness evolution and generate graphs for visual comparison. 
+This class collects data and generates graphs for each parameter, which helps to determine how each parameter affects the performance of the genetic algorithm.
+
+- **Parameter Setup:**
+
+```python
+parameter_name = 'crossover_type'
+parameter_values = ["single_point_crossover", "two_point_crossover", "uniform_crossover"]
+```
+Here, we specify the parameter we want to test (for example crossover_type) and the values it can take.
+
+- **Collecting Data:**
+
+```python
+def test(parameter_name, parameter_values):
+    all_fitnesses = []
+    for value in parameter_values:
+        new_config = {parameter_name: value}
+        update_config(new_config)
+        fitnesses = run(need_print=False)
+        all_fitnesses.append((value, fitnesses))
+    return all_fitnesses
+```
+The `'test'` function runs the genetic algorithm for each parameter value, collects the fitness over generations, and stores the results.
+
+### Key Findings
+**Type of crossover:**
+Single-point crossover showed the fastest convergence in the early stages and eventually achieves better results compared to the others.
+
+![](temp/fitness_evolution_crossover_type.png)
+
+*Conclusion:* This type of crossover is best for rapid improvement.
+
+**Level of elitism:**
+High values (0.3-0.4) ensure better retention of the best individuals, resulting in faster fitness improvements.
+
+
+![](temp/fitness_evolution_elitism_rate.png)
+
+*Conclusion:* High elitism level is preferred for stable results.
+
+**Proportion of new generation:**
+Values of 0.6-0.8 favor a better balance between retaining the best individuals and introducing new ones, which speeds up the learning process.
+
+
+![](temp/fitness_evolution_future_generation.png)
+
+*Conclusion:* High values of `'future_generation'` parameter give better results.
+
+**Mutation rate:**
+Value 0.1 shows optimal diversity without compromising stability.
+
+
+![](temp/fitness_evolution_mutation_rate.png)
+
+*Conclusion:* Moderate mutation level is preferred to maintain genetic diversity.
+
+**Population size:**
+Large population sizes, such as 100 individuals, give more stable and higher results, providing sufficient genetic variation.
+
+
+![](temp/fitness_evolution_population_size.png)
+
+*Conclusion:* Large population sizes are better for optimal results.
+
+**Type of selection:**
+Roulette-wheel selection performed better, quickly leading the algorithm to high fitness values.
+
+
+![](temp/fitness_evolution_selection_type.png)
+
+*Conclusion:* Roulette-wheel selection is the most efficient method.
+
+These conclusions will help in further tuning of parameters for optimal performance of the genetic algorithm, but at the same time we should not strongly rely on them, because it is necessary to look at the performance of all parameters in complex.
+
+| Parameter             | Variations of Parameters               | Best Result    | Worst Result |
+|-----------------------|----------------------------------------|----------------|--------------|
+| **сrossover_type**    | single-point, two-point, uniform       | single-point   | uniform      |
+| **elitism_rate**      | 0.0, 0.1, 0.2, 0.3, 0.4, 0.5           | 0.4            | 0.5          |
+| **future_generation** | 0.4, 0.5, 0.6, 0.7, 0.8, 0.9           | 0.8            | 0.9          |
+| **mutation_Rate**     | 0.0, 0.01, 0.05, 0.1, 0.15, 0.2        | 0.1            | 0.01         |
+| **population_size**   | 10, 20, 50, 70, 80, 100                | 100            | 80           |
+| **selection_type**    | tournament, rank-based, roulette-wheel | roulette-wheel | tournament   |
+
+This table will allow a visual comparison of the effect of each parameter on the efficiency of the algorithm.
 
 ## Conclusion
 
-The genetic algorithm developed for the Zen Garden problem successfully optimizes the monk's raking patterns to cover the maximum possible area. Through systematic evaluation and parameter optimization, the algorithm demonstrates high effectiveness and efficiency. The use of automated testing facilitated the identification of optimal settings, significantly improving performance outcomes. 
+The genetic algorithm developed for the Zen Garden problem successfully optimizes the monk's raking patterns to cover the maximum possible area. Through systematic evaluation and parameter optimization, the algorithm demonstrates high effectiveness and efficiency. The use of automated testing and analysis allowed to identify optimal settings, which significantly improved the results and accelerated the convergence of the algorithm.
+
+In the process, the code performance was improved due to a thorough study of parameters and their influence on the algorithm. This contributed not only to the efficiency of the algorithm, but also to a better understanding of its dynamics, which opens opportunities for further improvement

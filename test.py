@@ -1,11 +1,10 @@
 # test.py
 
-import random
 import config
 from algorithm import main as run
 
 # Log file properties
-LOG_FILE = 'log.txt'
+LOG_FILE = 'temp/log.txt'
 log_file = None
 
 # Tests properties
@@ -35,7 +34,7 @@ def test_config(conf, runs=100):
     successful_runs = 0
 
     for i in range(runs):
-        fitness = run(need_print=False)
+        fitnesses, fitness = run(need_print=False)
         print(f"Run {i+1}/{runs}: fitness = {fitness}")
         if fitness == max_fitness:
             successful_runs += 1

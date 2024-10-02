@@ -97,7 +97,7 @@ def main(need_print=True):
         print("Best garden:")
         print_garden(best_garden)
 
-    return max(fitnesses)
+    return fitnesses, max(fitnesses)
 
 if __name__ == '__main__':
     main()

@@ -429,7 +429,7 @@ This class collects data and generates graphs for each parameter, which helps to
 parameter_name = 'crossover_type'
 parameter_values = ["single_point_crossover", "two_point_crossover", "uniform_crossover"]
 ```
-Here, we specify the parameter we want to test (for example crossover_type) and the values it can take.
+Here, we specify the parameter we want to test (for example `'crossover_type'`) and the values it can take.
 
 - **Collecting Data:**
 
@@ -493,7 +493,7 @@ Roulette-wheel selection performed better, quickly leading the algorithm to high
 
 *Conclusion:* Roulette-wheel selection is the most efficient method.
 
-These conclusions will help in further tuning of parameters for optimal performance of the genetic algorithm, but at the same time we should not strongly rely on them, because it is necessary to look at the performance of all parameters in complex.
+This table will allow a visual comparison of the effect of each parameter on the efficiency of the algorithm.
 
 | Parameter             | Variations of Parameters               | Best Result    | Worst Result |
 |-----------------------|----------------------------------------|----------------|--------------|
@@ -504,10 +504,10 @@ These conclusions will help in further tuning of parameters for optimal performa
 | **population_size**   | 10, 20, 50, 70, 80, 100                | 100            | 80           |
 | **selection_type**    | tournament, rank-based, roulette-wheel | roulette-wheel | tournament   |
 
-This table will allow a visual comparison of the effect of each parameter on the efficiency of the algorithm.
+These results will help in further tuning of parameters for optimal performance of the genetic algorithm, but at the same time we should not strongly rely on them, because it is necessary to look at the performance of all parameters in complex.
 
 ## Conclusion
 
 The genetic algorithm developed for the Zen Garden problem successfully optimizes the monk's raking patterns to cover the maximum possible area. Through systematic evaluation and parameter optimization, the algorithm demonstrates high effectiveness and efficiency. The use of automated testing and analysis allowed to identify optimal settings, which significantly improved the results and accelerated the convergence of the algorithm.
 
-In the process, the code performance was improved due to a thorough study of parameters and their influence on the algorithm. This contributed not only to the efficiency of the algorithm, but also to a better understanding of its dynamics, which opens opportunities for further improvement
+During the process, the performance of the code was improved through a thorough research of the parameters and their impact on the algorithm. This helped to improve the efficiency of the algorithm and better understand its dynamics.

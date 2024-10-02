@@ -1,8 +1,12 @@
 # graph.py
 
 import matplotlib.pyplot as plt
+import os
 import config
 from algorithm import main as run
+
+# Graph files directory
+dir = 'temp'
 
 # Tests properties
 parameter_name = 'crossover_type'
@@ -46,7 +50,10 @@ def plot_fitnesses(all_fitnesses, parameter_name):
     plt.legend()
     plt.grid(True)
 
-    filename = f'fitness_evolution_{parameter_name}.png'
+    if not os.path.exists(dir):
+        os.makedirs(dir)
+
+    filename = os.path.join(dir, f'fitness_evolution_{parameter_name}.png')
     plt.savefig(filename)
 
     plt.show()

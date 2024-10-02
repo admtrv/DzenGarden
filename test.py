@@ -1,10 +1,12 @@
 # test.py
 
+import os
 import config
 from algorithm import main as run
 
 # Log file properties
-LOG_FILE = 'temp/log.txt'
+dir = 'temp'
+LOG_FILE = os.path.join(dir, 'log.txt')
 log_file = None
 
 # Tests properties
@@ -86,6 +88,9 @@ def generate_config():
     return configs
 
 if __name__ == "__main__":
+    if not os.path.exists(dir):
+        os.makedirs(dir)
+
     log_file = open(LOG_FILE, 'w')
 
     # Generating configs

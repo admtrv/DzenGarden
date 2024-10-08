@@ -29,7 +29,7 @@ The strips can only go horizontally or vertically, never diagonally. He always s
 The implemented algorithm is a classical **Genetic Algorithm (GA)** designed to evolve a population of potential solutions over several generations. 
 
 The core body of this program is located in the file `'algorithm.py'` and contains the logic of the whole genetic algorithm, to which functions from other modules are connected to produce a consistent work. 
-#### Main Loop
+### Main Loop
 
 1. **Initialization**: Generate an initial population of individuals with randomly assigned genes.
 ``` python
@@ -83,7 +83,7 @@ population = next_population
 population_number += 1
 ```
 
-#### Termination Conditions:
+### Termination Conditions:
 
 - **Maximum Generations**: The algorithm stops if it reaches the predefined number of generations.
 ``` python
@@ -101,7 +101,8 @@ if best_fitness >= length * height - len(rocks):
 ## Genes Generation
 
 The entire logic for generating the genes of a single individual and generating an entire population is in the `'generation.py'` file.
-## Genes Properties
+
+### Genes Properties
 
 Each individual in the population is represented by a set of genes divided into two parts:
 
@@ -291,7 +292,7 @@ def uniform_crossover(population):
 
 Mutation is a process in which genes of an individual may be changed with a randomly small chance, helping to maintain genetic diversity and prevent premature convergence.
 
-The mutation process is defined in the `'mutation.py'` file.
+The mutation process is defined in the `'mutation.py'` file and its logic is explained below:
 
 **Mutation Process**:
 - **Positions Genes**: A mutated position gene is replaced with a new random starting position.
@@ -314,7 +315,7 @@ if random.random() < mutation_rate:
 
 Elitism ensures that a fraction of the best-performing individuals is preserved unaltered for the next generation.
 
-The process of elitism is defined in the file `'elitism.py'`.
+The process of elitism is defined in the file `'elitism.py'` and its logic is explained below:
 
 **Elitism Process**:
 -  **Sorting**: The population is sorted in descending order based on the fitness score.
@@ -335,30 +336,31 @@ for i in range(elite_count):
 return elite_population
 ```
 
-### Settings
+## Settings
 
 All adjustable parameters are centralized in the `'config.py'` file, allowing easy modification for experimentation and fine-tuning.
 
-- **Population Size (`population_size`)**: Controls the number of individuals in the population.
-- **Generations Size (`generations_size`)**: The maximum number of generations the algorithm will run.
-- **Mutation Rate (`mutation_rate`)**: Probability of a gene undergoing mutation.
-- **Elitism Rate (`elitism_rate`)**: Proportion of top individuals preserved in each generation.
-- **Future Generation Proportion (`future_generation`)**: Fraction of the population that will be generated through selection and genetic operators.
-- **Selection Type (`selection_type`)**: Choice among `'tournament_selection'`, `'rank_based_selection'`, or `'roulette_wheel_selection'`.
-- **Crossover Type (`crossover_type`)**: Choice among `'single_point_crossover'`, `'two_point_crossover'`, or `'uniform_crossover'`.
+- **Population Size (`'population_size'`)**: Controls the number of individuals in the population.
+- **Generations Size (`'generations_size'`)**: The maximum number of generations the algorithm will run.
+- **Mutation Rate (`'mutation_rate'`)**: Probability of a gene undergoing mutation.
+- **Elitism Rate (`'elitism_rate'`)**: Proportion of top individuals preserved in each generation.
+- **Future Generation Proportion (`'future_generation'`)**: Fraction of the population that will be generated through selection and genetic operators.
+- **Selection Type (`'selection_type'`)**: Choice among `'tournament_selection'`, `'rank_based_selection'`, or `'roulette_wheel_selection'`.
+- **Crossover Type (`'crossover_type'`)**: Choice among `'single_point_crossover'`, `'two_point_crossover'`, or `'uniform_crossover'`.
 
-**Garden Parameters:**
-- **Garden Length (`length`)**: Sets the horizontal size of the garden grid.
-- **Garden Height (`height`)**: Sets the vertical size of the garden grid.
-- **Rocks Positions (`rocks`)**: A list of tuples representing the coordinates `(y, x)` of immovable rocks within the garden.
+The garden parameters have also been put into a configuration file so that they can be easily customized:
 
-#### Parameter Optimization
+- **Garden Length (`'length'`)**: Sets the horizontal size of the garden grid.
+- **Garden Height (`'height'`)**: Sets the vertical size of the garden grid.
+- **Rocks Positions (`'rocks'`)**: A list of tuples representing the coordinates `(y, x)` of immovable rocks within the garden.
+
+### Parameter Optimization
 
 To enhance the performance of the genetic algorithm, I initially tried adjusting the parameters manually. However, this approach was time-consuming and inefficient. To automate the process and find the optimal configuration more effectively, I created the `'test.py'` file.
 
 The `'test.py'` script systematically tests different combinations of parameters to identify the settings that yield the best fitness results for the algorithm.
 
-**Functionality:**
+#### Functionality
 - **Parameter Generation**: The script generates various configurations by varying parameters such as population size, generation size, mutation rate, elitism rate, future generation proportion, selection type, and crossover type.
 ``` python
 def generate_config():  
@@ -399,7 +401,7 @@ def test_config(conf, runs=100):
     return success_rate
 ```
 
-**Outcome:**
+#### Outcome
 By using this automated testing approach, I was able to find the ideal configuration that significantly improved the algorithm's performance:
 
 ```
@@ -418,12 +420,12 @@ success rate = 98.0%
 
 This configuration achieved a `98.0%` success rate in obtaining the best possible fitness, which was a substantial improvement over manual parameter tuning.
 
-## Analysis
+### Analysis
 
 For the purpose of analyzing parameters, I created a `'graph.py'` class that allows to test the effect of different parameters on fitness evolution and generate graphs for visual comparison. 
 This class collects data and generates graphs for each parameter, which helps to determine how each parameter affects the performance of the genetic algorithm.
 
-- **Parameter Setup:**
+#### Parameter Setup
 
 ```python
 parameter_name = 'crossover_type'
@@ -431,7 +433,7 @@ parameter_values = ["single_point_crossover", "two_point_crossover", "uniform_cr
 ```
 Here, we specify the parameter we want to test (for example `'crossover_type'`) and the values it can take.
 
-- **Collecting Data:**
+#### Collecting Data
 
 ```python
 def test(parameter_name, parameter_values):
@@ -445,7 +447,7 @@ def test(parameter_name, parameter_values):
 ```
 The `'test'` function runs the genetic algorithm for each parameter value, collects the fitness over generations, and stores the results.
 
-### Key Findings
+#### Key Findings
 **Type of crossover:**
 Single-point crossover showed the fastest convergence in the early stages and eventually achieves better results compared to the others.
 
@@ -493,7 +495,7 @@ Roulette-wheel selection performed better, quickly leading the algorithm to high
 
 *Conclusion:* Roulette-wheel selection is the most efficient method.
 
-This table will allow a visual comparison of the effect of each parameter on the efficiency of the algorithm.
+This table will allow a visual comparison of the effect of each parameter on the efficiency of the algorithm:
 
 | Parameter             | Variations of Parameters               | Best Result    | Worst Result |
 |-----------------------|----------------------------------------|----------------|--------------|
@@ -504,10 +506,9 @@ This table will allow a visual comparison of the effect of each parameter on the
 | **population_size**   | 10, 20, 50, 70, 80, 100                | 100            | 80           |
 | **selection_type**    | tournament, rank-based, roulette-wheel | roulette-wheel | tournament   |
 
-These results will help in further tuning of parameters for optimal performance of the genetic algorithm, but at the same time we should not strongly rely on them, because it is necessary to look at the performance of all parameters in complex.
 
 ## Conclusion
 
-The genetic algorithm developed for the Zen Garden problem successfully optimizes the monk's raking patterns to cover the maximum possible area. Through systematic evaluation and parameter optimization, the algorithm demonstrates high effectiveness and efficiency. The use of automated testing and analysis allowed to identify optimal settings, which significantly improved the results and accelerated the convergence of the algorithm.
+The genetic algorithm developed for the Zen Garden problem successfully optimizes the monk’s raking patterns to cover the maximum possible area. Through systematic evaluation and parameter optimization, the algorithm demonstrates high effectiveness and efficiency. The use of automated testing and analysis allowed to identify optimal settings, which significantly improved the results and accelerated the convergence of the algorithm.
 
 During the process, the performance of the code was improved through a thorough research of the parameters and their impact on the algorithm. This helped to improve the efficiency of the algorithm and better understand its dynamics.
